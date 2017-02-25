@@ -10,33 +10,53 @@ import java.util.Stack;
 public class ExpressionChecking
 {
     // This method will check if all opened parenthesis are closed
-    public boolean checkpParenthesis(String s)
+    public boolean checkParenthesisDebug(String s)
     {
         int closingBraces = 0;
         Stack<Character> braces = new Stack<>();
         for (int i = 0; i < s.length(); i++)
         {
-            if( s.charAt(i) == '(' || s.charAt(i) == ')')
+            if (s.charAt(i) == '(' || s.charAt(i) == ')')
             {
                 braces.push(s.charAt(i));
             }
         }
 
-        if( braces.size() % 2 == 1 )
+        if (braces.size() % 2 == 1)
         {
             return false;
         }
 
-        while ( !braces.isEmpty() )
+        while (!braces.isEmpty())
         {
             char c = braces.pop();
-            if( c == ')')
+            if (c == ')')
             {
                 closingBraces++;
-            }else if( c == '(' && closingBraces > 0)
+            } else if (c == '(' && closingBraces > 0)
             {
                 closingBraces--;
             } else return false;
+        }
+        return true;
+    }
+
+    public boolean checkParenthesis(String s)
+    {
+        Stack<Character> braces = new Stack<>();
+        for (int i = 0; i < s.length(); i++)
+        {
+            if (s.charAt(i) == '(')
+            {
+                braces.push(s.charAt(i));
+            }
+            if (s.charAt(i) == ')')
+            {
+                if (!braces.isEmpty())
+                {
+                    braces.pop();
+                }else return false;
+            }
         }
         return true;
     }
