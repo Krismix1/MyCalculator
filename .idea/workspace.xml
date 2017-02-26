@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Functionality/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+            <state relative-caret-position="434">
+              <caret line="78" column="59" lean-forward="false" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
               <folding>
                 <element signature="method#apply#0;class#Calculator#0" expanded="false" />
               </folding>
@@ -81,23 +81,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Operation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Functionality/Operation.java">
+      <file leaf-file-name="Operations.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Functionality/Operations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="925">
+              <caret line="78" column="4" lean-forward="false" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
               <folding>
-                <element signature="method#Operation#0;class#Operation#0" expanded="false" />
-                <element signature="method#multiplication#0;class#Operation#0" expanded="false" />
-                <element signature="method#division#0;class#Operation#0" expanded="false" />
-                <element signature="method#addition#0;class#Operation#0" expanded="false" />
-                <element signature="method#subtraction#0;class#Operation#0" expanded="false" />
-                <element signature="method#power#0;class#Operation#0" expanded="false" />
-                <element signature="method#sqrRoot#0;class#Operation#0" expanded="false" />
-                <element signature="e#1315#1316#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
-                <element signature="e#1389#1390#0" expanded="true" />
-                <element signature="e#1424#1425#0" expanded="true" />
+                <element signature="method#getOperation#0;class#Operations#0" expanded="false" />
+                <element signature="method#Operations#0;class#Operations#0" expanded="false" />
+                <element signature="method#multiplication#0;class#Operations#0" expanded="false" />
+                <element signature="method#division#0;class#Operations#0" expanded="false" />
+                <element signature="method#addition#0;class#Operations#0" expanded="false" />
+                <element signature="method#subtraction#0;class#Operations#0" expanded="false" />
+                <element signature="method#power#0;class#Operations#0" expanded="false" />
+                <element signature="method#sqrRoot#0;class#Operations#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -138,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/Functionality/ExpressionChecking.java" />
         <option value="$PROJECT_DIR$/src/Functionality/Calculator.java" />
         <option value="$PROJECT_DIR$/src/Functionality/Operation.java" />
+        <option value="$PROJECT_DIR$/src/Functionality/Operations.java" />
       </list>
     </option>
   </component>
@@ -221,9 +219,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,6 +289,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -799,12 +797,13 @@
       <workItem from="1487795796330" duration="630000" />
       <workItem from="1487869193701" duration="19000" />
       <workItem from="1488016655154" duration="1111000" />
-      <workItem from="1488022522841" duration="722000" />
+      <workItem from="1488022522841" duration="2039000" />
+      <workItem from="1488102752885" duration="651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26546000" />
+    <option name="totallyTimeSpent" value="28514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -873,6 +872,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Functionality/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="78" column="59" lean-forward="false" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
+          <folding>
+            <element signature="method#apply#0;class#Calculator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functionality/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functionality/ExpressionChecking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functionality/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1375">
           <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
           <folding>
@@ -885,19 +910,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#Operation#0;class#Operation#0" expanded="false" />
-            <element signature="method#multiplication#0;class#Operation#0" expanded="false" />
-            <element signature="method#division#0;class#Operation#0" expanded="false" />
-            <element signature="method#addition#0;class#Operation#0" expanded="false" />
-            <element signature="method#subtraction#0;class#Operation#0" expanded="false" />
-            <element signature="method#power#0;class#Operation#0" expanded="false" />
-            <element signature="method#sqrRoot#0;class#Operation#0" expanded="false" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,30 +1171,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Functionality/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="method#Operation#0;class#Operation#0" expanded="false" />
-            <element signature="method#multiplication#0;class#Operation#0" expanded="false" />
-            <element signature="method#division#0;class#Operation#0" expanded="false" />
-            <element signature="method#addition#0;class#Operation#0" expanded="false" />
-            <element signature="method#subtraction#0;class#Operation#0" expanded="false" />
-            <element signature="method#power#0;class#Operation#0" expanded="false" />
-            <element signature="method#sqrRoot#0;class#Operation#0" expanded="false" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="427">
+          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Functionality/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        <state relative-caret-position="434">
+          <caret line="78" column="59" lean-forward="false" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
           <folding>
             <element signature="method#apply#0;class#Calculator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functionality/Operations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="78" column="4" lean-forward="false" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+          <folding>
+            <element signature="method#getOperation#0;class#Operations#0" expanded="false" />
+            <element signature="method#Operations#0;class#Operations#0" expanded="false" />
+            <element signature="method#multiplication#0;class#Operations#0" expanded="false" />
+            <element signature="method#division#0;class#Operations#0" expanded="false" />
+            <element signature="method#addition#0;class#Operations#0" expanded="false" />
+            <element signature="method#subtraction#0;class#Operations#0" expanded="false" />
+            <element signature="method#power#0;class#Operations#0" expanded="false" />
+            <element signature="method#sqrRoot#0;class#Operations#0" expanded="false" />
           </folding>
         </state>
       </provider>
